@@ -29,7 +29,7 @@ const Contact = () => {
           },
         }
       )
-      .then((res) => {
+      .then(() => {
         setIsLoading(false);
         notify("Message Sent Successfully!!");
         setFormData({ name: "", email: "", message: "" });

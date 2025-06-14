@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import useOnScrollBgChange from "../../hooks/useOnScrollBgChange";
 import "./Header.css";
 import AnchorLink from "../AnchorLink/AnchorLink";
