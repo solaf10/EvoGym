@@ -1,0 +1,118 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  /* padding-top: 106px; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  z-index: 1;
+  background-color: var(--bg-color);
+}
+.hero > .container {
+  .text {
+    /* margin-top: -70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      h1 {
+        margin-bottom: -30px;
+        font-size: 110px;
+        font-weight: 900;
+      }
+      p {
+        /* text-align: center; */
+        letter-spacing: 5px;
+        font-size: 48px;
+        font-weight: 200;
+        color: rgb(93 0 0 / 50%);
+      }
+    }
+    .content {
+      margin-top: -10px;
+      p {
+        /* width: 59%; */
+        margin: 2rem 0px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+    }
+    .actions {
+      gap: 2rem;
+      align-items: center;
+    }
+  }
+  .image {
+    padding-top: 100px;
+  }
+}
+.hero > .container > div {
+  width: 50%;
+}
+.hero::before {
+  content: url(/public/assets/imgs/EvolveText.png);
+  position: absolute;
+  top: calc(106px + 60px);
+  left: 40px;
+  z-index: -1;
+}
+/* sponsors */
+.hero .sponsors {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+  background-color: var(--neutral-color);
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    padding-top: 106px;
+    .container .image {
+      padding-top: 0px;
+    }
+    .sponsors {
+      position: relative;
+      z-index: 1;
+      .container {
+        gap: unset;
+        justify-content: space-between;
+      }
+    }
+  }
+  .hero > .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    .text {
+      width: 100%;
+    }
+  }
+  .hero::before {
+    content: "";
+  }
+}
+@media (max-width: 768px) {
+  .hero > .container {
+    gap: 20px;
+  }
+  .hero .sponsors .container {
+    /* justify-content: center; */
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .hero > .container .text .title h1 {
+    font-size: 64px;
+    margin-bottom: -20px;
+  }
+  .hero > .container .text .title p {
+    font-size: 30px;
+  }
+}

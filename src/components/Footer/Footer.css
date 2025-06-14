@@ -1,0 +1,56 @@
+footer {
+  padding: 4rem 0px;
+  background-color: var(--neutral-color);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    .info {
+      width: 25%;
+      h3 {
+        margin-bottom: 1.25rem;
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+    .gym-info {
+      width: 50%;
+      p.desc {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+      }
+    }
+    .links {
+      li {
+        margin-bottom: 1.25rem;
+      }
+    }
+    .contact-info {
+      li {
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .icon {
+          font-size: 18px;
+          color: var(--main-color);
+        }
+      }
+    }
+  }
+}
+footer .container .contact-info li.worktime .icon {
+  margin-top: 4px;
+  align-self: flex-start;
+}
+@media (max-width: 991px) {
+  footer {
+    padding-top: 8rem;
+    .container {
+      flex-wrap: wrap;
+      .info {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.gym {
+  /* padding: 5rem 0px; */
+  padding: 7rem 0px;
+  background-color: var(--bg-color);
+  .images {
+    display: flex;
+    overflow-x: auto;
+  }
+}

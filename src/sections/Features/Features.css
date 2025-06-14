@@ -1,0 +1,64 @@
+.features {
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  .holder {
+    display: flex;
+    align-items: center;
+    .image {
+      width: 50%;
+      .circle {
+        width: 80%;
+        height: 50%;
+        border-radius: 50%;
+        background-color: var(--main-color);
+      }
+    }
+    .text {
+      position: relative;
+      width: 50%;
+      .decoration.waves {
+        position: relative;
+        right: 50px;
+        z-index: 1;
+      }
+      .decoration.sparks {
+        position: absolute;
+        right: 0px;
+        /* bottom: -50px; */
+        z-index: -1;
+      }
+      h2 {
+        span {
+          color: var(--main-color);
+        }
+      }
+      p {
+        font-weight: 300;
+      }
+      .article p:first-child {
+        margin: 1.25rem 0px;
+      }
+      button {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .features .holder {
+    flex-wrap: wrap;
+  }
+  .features .holder .image,
+  .features .holder .text {
+    width: 100%;
+  }
+  .features .holder .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .features .holder .image img {
+    width: 70%;
+  }
+}

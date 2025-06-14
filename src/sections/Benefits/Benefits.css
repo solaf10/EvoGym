@@ -1,0 +1,14 @@
+.benefits {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+@media (max-width: 991px) {
+  .benefits .cards {
+    gap: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .benefits .holder {
+    padding: 0px 20px;
+  }
+}
