@@ -9,37 +9,37 @@ const Gym = () => {
   const gym = [
     {
       id: 1,
-      img: "/public/assets/imgs/gym1.jpg",
+      img: "/assets/imgs/gym1.jpg",
       title: "Yoga & Flexibility",
       desc: "A calm and open space designed for yoga, stretching, and relaxation exercises, promoting balance, mindfulness, and flexibility.",
     },
     {
       id: 2,
-      img: "/public/assets/imgs/gym2.jpg",
+      img: "/assets/imgs/gym2.jpg",
       title: "Strength Training Area",
       desc: "Equipped with free weights, squat racks, and benches—ideal for building muscle, improving posture, and increasing core strength.",
     },
     {
       id: 3,
-      img: "/public/assets/imgs/gym3.jpg",
+      img: "/assets/imgs/gym3.jpg",
       title: "Cardio & Endurance",
       desc: "Packed with treadmills, ellipticals, and stationary bikes to help you boost stamina, burn calories, and keep your heart healthy.",
     },
     {
       id: 4,
-      img: "/public/assets/imgs/gym4.jpg",
+      img: "/assets/imgs/gym4.jpg",
       title: "Functional Training Zone",
       desc: "A dynamic area with kettlebells, ropes, and plyometric boxes—perfect for high-intensity interval training and functional workouts.",
     },
     {
       id: 5,
-      img: "/public/assets/imgs/gym5.jpg",
+      img: "/assets/imgs/gym5.jpg",
       title: "Personal Training Studio",
       desc: "A private and focused environment for one-on-one sessions with certified trainers to tailor your fitness journey.",
     },
     {
       id: 6,
-      img: "/public/assets/imgs/gym6.jpg",
+      img: "/assets/imgs/gym6.jpg",
       title: "Group Classes Room",
       desc: "A high-energy space for group classes like Zumba, pilates, or boot camps—where motivation meets fun in every session.",
     },

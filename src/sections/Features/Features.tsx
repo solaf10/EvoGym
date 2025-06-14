@@ -10,12 +10,12 @@ const Features = () => {
     <div className="features">
       <div className="holder">
         <div className="image">
-          <img className="img-fluid" src="/public/assets/imgs/fit.jpg" alt="" />
+          <img className="img-fluid" src="/assets/imgs/fit.jpg" alt="" />
         </div>
         <div className="text">
           <img
             className="decoration waves"
-            src="/public/assets/imgs/AbstractWaves.png"
+            src="/assets/imgs/AbstractWaves.png"
             alt=""
           />
           <motion.div
@@ -62,7 +62,7 @@ const Features = () => {
           </a>
           <img
             className="decoration sparks"
-            src="/public/assets/imgs/Sparkles.png"
+            src="/assets/imgs/Sparkles.png"
             alt=""
           />
         </div>

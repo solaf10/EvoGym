@@ -51,16 +51,16 @@ const Hero = () => {
         <div className="image">
           <img
             className="img-fluid"
-            src="/public/assets/imgs/undraw_bike-ride_ba0o.svg"
+            src="/assets/imgs/undraw_bike-ride_ba0o.svg"
             alt=""
           />
         </div>
       </motion.div>
       <div className="sponsors">
         <div className="container">
-          <img src="/public/assets/imgs/SponsorRedBull.png" alt="" />
-          <img src="/public/assets/imgs/SponsorForbes.png" alt="" />
-          <img src="/public/assets/imgs/SponsorFortune.png" alt="" />
+          <img src="/assets/imgs/SponsorRedBull.png" alt="" />
+          <img src="/assets/imgs/SponsorForbes.png" alt="" />
+          <img src="/assets/imgs/SponsorFortune.png" alt="" />
         </div>
       </div>
     </section>

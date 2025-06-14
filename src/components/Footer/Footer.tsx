@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="info gym-info">
-          <img src="/public/assets/imgs/logo.png" alt="logo" />
+          <img src="/assets/imgs/logo.png" alt="logo" />
           <p className="desc">
             State-of-the-art equipment, expert trainers, and an inspiring
             environment — all designed to help you reach your goals at your own

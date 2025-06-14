@@ -23,7 +23,7 @@ const Header = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/public/assets/imgs/logo.png" alt="" />
+          <img src="/assets/imgs/logo.png" alt="" />
         </a>
         <button
           className="navbar-toggler"

@@ -120,16 +120,8 @@ const Contact = () => {
             }}
             className="image"
           >
-            <img
-              className="img-fluid"
-              src="/public/assets/imgs/contact.jpg"
-              alt=""
-            />
-            <img
-              className="logo-bg"
-              src="/public/assets/imgs/EvolveText.png"
-              alt=""
-            />
+            <img className="img-fluid" src="/assets/imgs/contact.jpg" alt="" />
+            <img className="logo-bg" src="/assets/imgs/EvolveText.png" alt="" />
           </motion.div>
         </motion.div>
       </motion.div>

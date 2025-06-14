@@ -51,7 +51,7 @@
   width: 50%;
 }
 .hero::before {
-  content: url(/public/assets/imgs/EvolveText.png);
+  content: url(/assets/imgs/EvolveText.png);
   position: absolute;
   top: calc(106px + 60px);
   left: 40px;
